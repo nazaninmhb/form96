@@ -24,8 +24,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', routes);
-app.use('/students', students);
+app.use('/96/', routes);
+app.use('/96/students', students);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
