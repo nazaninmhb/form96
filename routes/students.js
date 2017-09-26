@@ -11,7 +11,9 @@ router.post('/', function (req, res, next) {
         description : req.body.description
     });
     s.save(function (err, print) {
-        res.render('student');
+        res.render('response', {
+            name: s.name
+        });
     });
 });
 

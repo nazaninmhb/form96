@@ -121,7 +121,19 @@ a, button {
 		width: 90vw;
 	}
 }
+#thanks {
+	height: 100vh;
+}
 
+#happy {
+	text-align: center;
+	font-family: sahel;
+	color: #537382;
+	height: 100vh;
+	line-height: 100vh;
+	font-size: 3.1em;
+	margin: 0;
+}
 
 
 
