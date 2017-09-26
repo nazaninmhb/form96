@@ -11,7 +11,7 @@ router.post('/', function (req, res, next) {
         description : req.body.description
     });
     s.save(function (err, print) {
-        res.json(print);
+        res.render('student');
     });
 });
 
