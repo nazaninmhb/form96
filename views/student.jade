@@ -1,0 +1,43 @@
+doctype html
+html.demo-1.no-js(lang='en')
+    head
+        meta(charset='UTF-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        title Contact Form
+        link(rel='stylesheet', type='text/css', href='stylesheets/demo.css')
+        link(rel='stylesheet', type='text/css', href='stylesheets/component.css')
+        //if IE
+          script(src='http://html5shiv.googlecode.com/svn/trunk/html5.js')
+        script.
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-47356263-1', 'codeconvey.com');
+            ga('send', 'pageview');
+    body
+        .container
+            header.ccheader
+                h1 Contact Form
+            .wrapper
+                form.ccform(method='post', action='')
+                    .ccfield-prepend
+                        span.ccform-addon
+                            i.fa.fa-user.fa-2x.fa-spin
+                        input.ccformfield(name='name',type='text', placeholder='Full Name', required='')
+                    .ccfield-prepend
+                        span.ccform-addon
+                            i.fa.fa-envelope.fa-2x
+                        input.ccformfield(name='email',type='text', placeholder='Email', required='')
+                    .ccfield-prepend
+                        span.ccform-addon
+                            i.fa.fa-mobile-phone.fa-2x
+                        input.ccformfield(name='phone', type='text', placeholder='Phone')
+                    .ccfield-prepend
+                        span.ccform-addon
+                            i.fa.fa-comment.fa-2x
+                        textarea.ccformfield(name='description', rows='8', placeholder='Interest and Skills', required='')
+                    .ccfield-prepend
+                        input.ccbtn(type='submit', value='Submit')
+        // /container
