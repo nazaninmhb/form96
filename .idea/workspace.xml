@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d23c415f-a508-4aba-8c32-89ab3cac23e4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/96/stylesheets/component.css" afterPath="$PROJECT_DIR$/public/96/stylesheets/component.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/96/stylesheets/demo.css" afterPath="$PROJECT_DIR$/public/96/stylesheets/demo.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/student.jade" afterPath="$PROJECT_DIR$/views/student.jade" />
     </list>
@@ -49,8 +47,8 @@
       <file leaf-file-name="student.jade" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/student.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="38" column="49" lean-forward="false" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+            <state relative-caret-position="367">
+              <caret line="39" column="52" lean-forward="false" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -59,8 +57,8 @@
       <file leaf-file-name="demo.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/96/stylesheets/demo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1491">
-              <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="148">
+              <caret line="115" column="1" lean-forward="false" selection-start-line="115" selection-start-column="1" selection-end-line="115" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -69,8 +67,8 @@
       <file leaf-file-name="component.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/96/stylesheets/component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="82" column="20" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+            <state relative-caret-position="-135">
+              <caret line="67" column="10" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -105,6 +103,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ccform</find>
+      <find>text-area</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -124,8 +128,8 @@
         <option value="$PROJECT_DIR$/models/student.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/students.js" />
-        <option value="$PROJECT_DIR$/public/96/stylesheets/demo.css" />
         <option value="$PROJECT_DIR$/public/96/stylesheets/component.css" />
+        <option value="$PROJECT_DIR$/public/96/stylesheets/demo.css" />
         <option value="$PROJECT_DIR$/views/student.jade" />
       </list>
     </option>
@@ -362,7 +366,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16154000" />
+    <option name="totallyTimeSpent" value="16898000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -762,26 +766,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/96/stylesheets/component.css">
+    <entry file="file://$PROJECT_DIR$/public/96/stylesheets/demo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="82" column="20" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+        <state relative-caret-position="148">
+          <caret line="115" column="1" lean-forward="false" selection-start-line="115" selection-start-column="1" selection-end-line="115" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/96/stylesheets/demo.css">
+    <entry file="file://$PROJECT_DIR$/public/96/stylesheets/component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1491">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="-135">
+          <caret line="67" column="10" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/student.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="38" column="49" lean-forward="false" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+        <state relative-caret-position="367">
+          <caret line="39" column="52" lean-forward="false" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
           <folding />
         </state>
       </provider>
