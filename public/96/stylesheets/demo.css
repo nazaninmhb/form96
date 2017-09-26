@@ -38,9 +38,20 @@ a, button {
 	clear: both;
 }
 
+.ccheaderimg {
+	padding-top: 15px;
+	width: 100%;
+}
+
+.ccheaderimg img {
+	max-height: 120px;
+	margin: auto;
+	display: block;
+}
+
 .ccheader {
 	margin: 0 auto;
-	padding: 2em;
+	padding: 1.2em;
 	text-align: center;
 }
 
@@ -135,6 +146,9 @@ a, button {
 	margin: 0;
 }
 @media (max-width: 500px) {
+	.ccheaderimg {
+		display: none;
+	}
 	#happy {
 		text-align: center;
 		font-family: sahel;

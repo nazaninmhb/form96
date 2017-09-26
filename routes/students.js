@@ -7,6 +7,7 @@ router.post('/', function (req, res, next) {
     var s = new student({
         name : req.body.name,
         email : req.body.email,
+        field : req.body.field,
         phoneNumber : req.body.phone,
         description : req.body.description
     });

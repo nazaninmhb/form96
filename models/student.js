@@ -4,6 +4,7 @@ var Schema = mongoose.Schema;
 var StudentSchema = new Schema({
     name: {type: String, required: true},
     email: {type: String, required: true},
+    field: {type: String, required: true},
     phoneNumber: Number,
     description: String,
 });
