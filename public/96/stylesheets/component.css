@@ -25,11 +25,15 @@
 	color:#78b7d8;
 
 }
-
-/* makes the font 33% larger relative to the icon container */
-
 .fa-2x {
-  font-size: 2em;
+	font-size: 2em;
+}
+/* makes the font 33% larger relative to the icon container */
+@media (max-width: 500px) {
+	.fa-2x {
+		font-size: 1.5em;
+		margin-right: -20px;
+	}
 }
 
 
