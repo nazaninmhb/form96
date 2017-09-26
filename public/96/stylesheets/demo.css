@@ -1,5 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
-
+@font-face {
+	font-family: sahel;
+	src: url('../fonts/Sahel.ttf');
+}
 body {
 	background:url('../images/1396-07-04 18.34.22.jpg');
 	background-size: cover;
