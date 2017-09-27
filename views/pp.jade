@@ -8,13 +8,14 @@ html.demo-1.no-js(lang='en')
         link(rel='stylesheet', type='text/css', href='stylesheets/demo.css')
         link(rel='stylesheet', type='text/css', href='stylesheets/component.css')
         link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+        link(rel="stylesheet" href="css/bootstrap.min.css")
     body
         .container
-            div.ccheaderimg.big
+            div.ccheaderimg.big()
                     img(src="images/acm.png")
+            div.ccheader(style="margin-top:40px;")
+                h2(style='font-family: Comic Sans; color: #537382;') acm.ut.ac.ir/96
             header.ccheader
-                h2(style='font-family: sahel; color: #537382',) acm.ut.ac.ir/96
+                h2(style='font-family: Comic Sans; color: #537382') @ut_acm
             header.ccheader
-                h2(style='font-family: sahel; color: #537382',) @ut_acm
-            header.ccheader
-                h2(style='font-family: sahel; color: #537382',) acm@ut.ac.ir
+                h2(style='font-family: Comic Sans; color: #537382') acm@ut.ac.ir
