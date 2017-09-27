@@ -22,13 +22,16 @@ router.get('/', function (req, res, next) {
    res.render('student');
 });
 
+router.get('/pp', function (req, res, next) {
+   res.render('pp');
+});
+
 router.get('/:id', function(req, res, next) {
     student.findOne({_id: req.params.id }, function (err, student) {
         if(err || !print)
             return res.status(400).json({error: true, message: 'Invalid id'});
         //res.render('student', {print: student})
     })
-    res.send('respond with a resource');
 });
 
 module.exports = router;

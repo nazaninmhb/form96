@@ -43,6 +43,10 @@ a, button {
 	width: 100%;
 }
 
+.ccheaderimg.big img {
+	margin-top: 40px; 
+	max-height: 400px;
+}
 .ccheaderimg img {
 	max-height: 120px;
 	margin: auto;
