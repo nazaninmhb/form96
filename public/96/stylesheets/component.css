@@ -31,7 +31,7 @@
 /* makes the font 33% larger relative to the icon container */
 @media (max-width: 500px) {
 	.fa-2x {
-		font-size: 1.5em;
+		font-size: 1.3em;
 		margin-right: -20px;
 	}
 }
